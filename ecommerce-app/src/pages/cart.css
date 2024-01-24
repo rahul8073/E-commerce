@@ -1,0 +1,10 @@
+
+.cart-banner{
+    height: 400px;
+    background: fixed url(https://img.freepik.com/free-photo/pretty-young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-shopping-holding-paper-bags-talking-mobile-phone-shopaholic_285396-2957.jpg?w=826&t=st=1706062270~exp=1706062870~hmac=b02f91b75a06bd9970a7af5528c8addcfdaa654b3d808702a08a48bfc11e1533) center/cover no-repeat;
+}
+.cart-color{
+    height: 330px;
+    background: rgba(30, 126, 190, 0.5);
+    color: aliceblue;
+}

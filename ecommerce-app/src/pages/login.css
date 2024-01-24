@@ -1,0 +1,13 @@
+
+#logo2{
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    /* background-color: bisque; */
+}
+#logo2 b{
+    font-family: fantasy;
+}

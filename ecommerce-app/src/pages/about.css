@@ -1,0 +1,17 @@
+
+.about-banner{
+    height: 400px;
+    background: fixed url(https://img.freepik.com/free-photo/group-three-modern-architects_23-2147702101.jpg?w=740&t=st=1706008735~exp=1706009335~hmac=139950a5b9f0a7f74508b455f847007a2ef5a973031c86fd09ba318aa104c8ba) center/cover no-repeat;
+}
+.about-banner .about-color{
+height: 330px;
+background: rgba(19, 119, 162, .4);
+}
+.social-banner{
+    height: 300px;
+    background: fixed url(https://img.freepik.com/free-photo/two-businesswomen-working-cafe_1157-26432.jpg?w=740&t=st=1706011892~exp=1706012492~hmac=308a9a206a0316a8b663e30c82bf07107518ece95e64362f4a191eedbdc45f25) center/cover no-repeat;
+}
+#my-line{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}

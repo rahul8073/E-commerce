@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+#logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+#logo b{
+    font-family: fantasy;
+}
+.su{
+    font-size: 12px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50%;
+    position: relative;
+    right: 5px;
+    bottom: 12px;
+}
+.navbar{
+    /* background-color: rgb(15, 85, 85); */
+    background: rgba(25, 84, 126, 0.3) !important;
+}
+.header{
+    background: rgba(25, 84, 126, 0.4) !important;
+}

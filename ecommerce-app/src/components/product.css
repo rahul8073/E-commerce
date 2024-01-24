@@ -1,0 +1,43 @@
+.image{
+   
+    height:10rem;
+    background: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/sports-shoe3-300x300.jpg) center/cover no-repeat;
+}
+.cart{
+    visibility: hidden;
+}
+.card-image:hover .cart{
+    visibility: visible;
+}
+.image2{
+    height:10rem;
+    background: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/sports-shoe1.jpg) center/cover no-repeat;
+}
+.image3{
+    height:10rem;
+    background: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-m-jeans1-300x300.jpg) center/cover no-repeat;
+}
+.image4{
+    height:10rem;
+    background: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-w-jeans2-300x300.jpg) center/cover no-repeat;
+}
+.image5{
+    height:10rem;
+    background: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-w-jeans1-300x300.jpg) center/cover no-repeat;
+}
+.image6{
+    height:10rem;
+    background: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-accessory2-300x300.jpg) center/cover no-repeat;
+}
+.image7{
+    height:10rem;
+    background: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-accessory1-300x300.jpg) center/cover no-repeat;
+}
+.image8{
+    height:10rem;
+    background: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-bag1-300x300.jpg) center/cover no-repeat;
+}
+.image9{
+    height: 10rem;
+    background: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-bag3-300x300.jpg) center/cover no-repeat;
+}
