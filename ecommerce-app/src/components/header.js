@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBagShopping, faCartShopping, faMagnifyingGlass, faUser, faUserAlt } from '@fortawesome/free-solid-svg-icons'
 import './header.css'
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
+    
     return (
         <div className="header">
             <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="container-fluid">
-                <Link className="navbar-brand text-uppercase" to='/'><span id="logo">r<b>ks</b></span></Link>
+                    <Link className="navbar-brand text-uppercase" to='/'><span id="logo">r<b>ks</b></span></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -47,8 +48,26 @@ function Navbar() {
                             <li className="nav-item">
                                 <Link className="nav-link text-light fs-5" to="/cart"><FontAwesomeIcon icon={faBagShopping} /><span className="text-dark bg-light su">0</span></Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item ">
                                 <Link to='/login' className="nav-link text-light fs-5"><FontAwesomeIcon icon={faUserAlt} /></Link>
+                            </li>
+                            <li className="nav-item me-4">
+                                <div className="dropdown w-25 ">
+                                    {/* {localStorage.getItem("token") != null ?*/} <> <a className="btn" href="#" role="button" data-bs-toggle="dropdown">
+                                         <img className='navbar-profile-pic ' alt="profile pic" src="https://images.unsplash.com/photo-1445543949571-ffc3e0e2f55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2ludGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+                                    </a>
+
+                                        <ul className="dropdown-menu">
+                                            <li>
+                                                <NavLink className="dropdown-item mt-0" to="/myprofile">My Profile</NavLink>
+                                            </li>
+                                            <li>
+                                                <a className="dropdown-item" href="#" >
+                                                    Logout
+                                                </a>
+                                            </li>
+                                        </ul> </>
+                                </div>
                             </li>
                         </ul>
 
